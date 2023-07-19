@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+h1,h2,h3{
+  color: rgb(54, 54, 54);
+}
+.header_s{
+    background-color: #59537f4f;
+
+}
+body{
+  font-family: Langar;
+}
+.App{
+  transition: all 0.5s ease;
+}
+.library-active{
+  margin-left: 30%;
+}
+@import './song';
+@import './player';
+@import './library';
+@import './nav';
